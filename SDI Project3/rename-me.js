@@ -31,8 +31,8 @@ var move2 = "Meteor showers";
 	//Loop 
 
 var move2 = 4;
-while(move2 > 1) {
-	console.log(move2 + " conjure to Meteor Showers.");
+while(move2 > 0) {
+	console.log(move2 + " conjure Meteor Showers.");
 	move2--;
 };
 
