@@ -26,3 +26,14 @@ var move2 = "Meteor showers";
 	useWeapon("character2");
 	console.log(character1Name + " choose " + weapon1);
 	};
+	
+	
+	//Loop 
+
+var move2 = 4;
+while(move2 > 1) {
+	console.log(move2 + " conjure to Meteor Showers.");
+	move2--;
+};
+
+console.log("All three Ice witches is destroy.");
