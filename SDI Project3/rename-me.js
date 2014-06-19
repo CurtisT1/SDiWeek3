@@ -14,8 +14,21 @@ var move1 = "Firestorm";
 var move2 = "Meteor showers";
 
 
-// Arrays Property 
-
+// Function
+    
+    var  chooseWeapon = function (character1Name, weapon1) {
+		console.log("choose " + weapon1 + " character1 " + character1Name);
+	var useWeapon = function(character1Name) {
+	var weapon1 = "wand";
+		console.log("choose " + weapon1 + character1Name);
+	};	 
+	useWeapon("wizard");
+	useWeapon("character2");
+	console.log(character1Name + " choose " + weapon1);
+	};
+	
+	
+// Arrays 
 
 var characterNames = ["Ice witch1" , "Ice witch2" , "Ice witch3"];
 
@@ -37,24 +50,22 @@ console.log(characterNames[i] + "is the leader kill her and the others Ice witch
 // Nested Conditional
 
 
+var character2 = true
+
+if (character2 === true){
+
+console.log("Ice witch1 is the leader destroy her.");
+
+
+};
 
 
 
 
 
-// Function
-    
-    var  chooseWeapon = function (character1Name, weapon1) {
-		console.log("choose " + weapon1 + " character1 " + character1Name);
-	var useWeapon = function(character1Name) {
-	var weapon1 = "wand";
-		console.log("choose " + weapon1 + character1Name);
-	};	 
-	useWeapon("wizard");
-	useWeapon("character2");
-	console.log(character1Name + " choose " + weapon1);
-	};
-	
+
+
+
 
 	
 	
@@ -67,4 +78,4 @@ while(move2 > 0) {
 	move2--;
 };
 
-console.log("All three Ice witches is destroy.");
+console.log("In 4 waves The wizard destroys all three Ice witches.");
