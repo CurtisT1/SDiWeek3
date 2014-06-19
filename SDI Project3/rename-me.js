@@ -14,6 +14,34 @@ var move1 = "Firestorm";
 var move2 = "Meteor showers";
 
 
+// Arrays Property 
+
+
+var characterNames = ["Ice witch1" , "Ice witch2" , "Ice witch3"];
+
+console.log(characterNames);
+
+for (var i = 0; i < characterNames.length; i++) {
+
+if (characterNames[i] === "Ice Witch1") {
+
+console.log(characterNames[i] + "is the leader kill her and the others Ice witches will be destroy also.");
+
+
+};
+
+};
+
+
+
+// Nested Conditional
+
+
+
+
+
+
+
 // Function
     
     var  chooseWeapon = function (character1Name, weapon1) {
@@ -26,6 +54,9 @@ var move2 = "Meteor showers";
 	useWeapon("character2");
 	console.log(character1Name + " choose " + weapon1);
 	};
+	
+
+	
 	
 	
 	//Loop 
